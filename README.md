@@ -20,7 +20,6 @@ pip install -r requirements.txt
 ### Basic usage (for LLaMA)
 
 LR
-BR
 ```bash
 python main.py --config=./configs/llama.py --config.epochs=0
 ```
