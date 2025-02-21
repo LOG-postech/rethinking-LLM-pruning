@@ -18,17 +18,24 @@ pip install -r requirements.txt
 ## Usage
 
 ### Basic usage (for LLaMA)
+
 LR
+BR
+```bash
+python main.py --config=./configs/llama.py --config.epochs=0
+```
+
+BR
 ```bash
 python main.py --config=./configs/llama.py
 ```
 
-LR + GP
+BR + GP
 ```bash
 python main.py --config=./configs/llama.py --config.use_gp=True
 ```
 
-LR + GP + CR
+BR + GP + CR
 ```bash
 python main.py --config=./configs/llama.py --config.use_gp=True --config.use_cr=True
 ```
